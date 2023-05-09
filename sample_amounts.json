@@ -1,0 +1,38 @@
+[
+    {
+        "amount": "1",
+        "amount_type": ""
+    },
+    {
+        "amount": "0.01",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "0.1",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "1",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "1.1",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "100.01",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "1000",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "10000.02",
+        "amount_type": "USD"
+    },
+    {
+        "amount": "100000.1",
+        "amount_type": "USD"
+    }
+]
