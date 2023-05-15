@@ -169,14 +169,14 @@ def main():
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
     amounts_config = json.load(open(os.path.join(__location__,args.amounts)))
 
-    # run_test_payment_status_wallet_confirming(args.env, amounts_config, 'basic')
-    # run_test_payment_status_wallet_confirming(args.env, amounts_config, 'switchable')
+    run_test_payment_status_wallet_confirming(args.env, amounts_config, 'basic')
+    run_test_payment_status_wallet_confirming(args.env, amounts_config, 'switchable')
 
-    # run_test_payment_status_blockchain_processing(args.env, amounts_config, 'basic')
-    # run_test_payment_status_blockchain_processing(args.env, amounts_config, 'switchable')
+    run_test_payment_status_blockchain_processing(args.env, amounts_config, 'basic')
+    run_test_payment_status_blockchain_processing(args.env, amounts_config, 'switchable')
 
-    # run_test_payment_status_success(args.env, amounts_config, 'basic')
-    # run_test_payment_status_success(args.env, amounts_config, 'switchable')
+    run_test_payment_status_success(args.env, amounts_config, 'basic')
+    run_test_payment_status_success(args.env, amounts_config, 'switchable')
 
     run_test_payment_status_fail(args.env, amounts_config, 'basic')
     run_test_payment_status_fail(args.env, amounts_config, 'switchable')
